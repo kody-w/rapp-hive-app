@@ -32,7 +32,7 @@ The camera is used only on the Scan screen, to read a pairing code or an agent c
 
 ## Sharing a card, and contacting us
 
-Share card opens your device’s share sheet with a picture of the card, its name, verdict, and summary, a link to Rapp Hive on the App Store, and, for a recipe card, its rapp://agent link. They go only to the apps and people you choose. The picture is made on this device and saved only as a temporary file for the share sheet.
+Share card opens your device’s share sheet with a picture of the card, its name, verdict, and summary, a link to Rapp Hive on the App Store, and, for a recipe card, its rapp://agent link. They go only to the apps and people you choose, and Save Image adds the picture to your photos. The picture is made on this device and saved only as a temporary file for the share sheet; the app never reads your photo library.
 
 Become a founder opens your own mail app with a message addressed to us; nothing is sent unless you send it. When you email us, we receive your email address and what you write, and use them to reply, to keep track of founders and their perks, and to send the weekly founders email you asked for. Every weekly email has an unsubscribe link, you can ask us to delete your address at any time, and we never sell or share it. If you join the Founders Club on Discord, Discord’s own terms and privacy policy apply there.
 
