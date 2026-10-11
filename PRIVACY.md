@@ -1,8 +1,14 @@
 # Rapp Hive Privacy Policy
 
-_Last updated September 28, 2026_
+_Last updated October 11, 2026_
 
-Rapp Hive does not collect personal data. Its brainstem runs on your iPhone, with Apple’s on-device model or, if you sign in, your own GitHub Copilot. Its developer never receives your conversations, voice, memories, agents, or settings.
+Rapp Hive’s developer operates no AI server and receives no AI conversations. Its brainstem runs on your device, with Apple’s on-device model or, only after explicit AI-sharing permission and GitHub sign-in, GitHub Copilot. GitHub processes personal data you choose to send. Its developer never receives your conversations, voice, memories, agents, or settings.
+
+## Permission before sharing with AI
+
+Selecting GitHub Copilot in Settings first shows an AI data-sharing disclosure naming GitHub (a Microsoft company), the data sent, and its purpose. Allow AI data sharing is a separate choice from GitHub sign-in. Not now makes no GitHub request and leaves Apple’s on-device model or the labelled local demo available. Saved GitHub credentials alone never grant permission.
+
+Permission is stored on this device for this disclosure version. A changed disclosure requires a new approval. Revoke AI data sharing in Settings stops further GitHub requests, cancels active requests and signs you out. Erase all data also clears permission. Neither action can recall data already received by GitHub.
 
 ## What the app stores on your device
 
@@ -18,7 +24,9 @@ Conversations and agent cards are kept in memory while the app is open. They are
 
 When Apple’s on-device model answers on this iPhone, what you say or type is not sent anywhere.
 
-If you choose GitHub Copilot for this iPhone, the brainstem on this iPhone sends what you say, a short window of the conversation, and its instructions (including the memories it recalls for that answer) to GitHub Copilot through your own GitHub account, under GitHub’s terms and privacy statement. Signing in happens on GitHub’s website, with a one-time code; the app never sees your GitHub password.
+Only after you allow AI data sharing, GitHub Copilot receives typed questions or transcribed speech, recent conversation messages, recalled saved memories, agent instructions and tool results included in answers, to authenticate your account and generate AI replies. GitHub also receives sign-in requests and tokens, your IP address and service request metadata. No audio is sent to Copilot. Sign-in uses a one-time code on GitHub’s website; HIVE never sees your GitHub password.
+
+GitHub, Inc. or GitHub B.V. operates GitHub Copilot as a Microsoft company. Its privacy statement is https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement and its Copilot terms are https://docs.github.com/en/site-policy/github-terms/github-copilot-product-specific-terms. These policies describe safeguards, purposes, retention, subprocessors and privacy rights. GitHub’s published protections include access controls, encryption and rights to access or delete personal data; these protect the data we share. Retention and model-improvement use depend on your plan and account or organization settings; HIVE does not promise that GitHub immediately deletes prompts or never uses them for model improvement. Manage those settings and deletion requests with GitHub.
 
 When you ask about Hacker News, the brainstem’s Hacker News agent fetches public stories from Hacker News’s API. It sends nothing about you.
 
@@ -26,7 +34,7 @@ A card’s sharing code carries only an agent’s recipe — its name, descripti
 
 ## Voice
 
-The microphone and speech recognition are used only while you are talking to the orb, after you grant access. When your device supports on-device recognition, audio stays on the device; otherwise your platform’s speech service (Apple on iPhone, Google on Android, or your browser’s provider on the web) processes it under its own privacy policy. Only the resulting text is sent to your brainstem. Spoken replies use your device’s built-in voice.
+On iOS, the microphone is used only while you talk to the orb, after permission. Speech recognition is required to run on the device: if unavailable, HIVE asks you to type instead and does not fall back to a cloud speech service. Only the resulting text reaches the selected AI, and GitHub receives it only after AI-sharing permission. Spoken replies use the device’s built-in voice.
 
 ## Sharing a card, and contacting us
 
@@ -36,17 +44,17 @@ Become a founder opens your own mail app with a message addressed to us; nothing
 
 ## What the app does not do
 
-There are no Rapp Hive accounts, analytics, advertising, or tracking. The only service that receives what you say is the one you choose: GitHub Copilot, if you sign in. Nothing you open installs an agent.
+There are no Rapp Hive accounts, analytics, advertising, or tracking. GitHub Copilot receives what you say only after explicit AI-sharing permission and sign-in. Nothing you open installs an agent.
 
 ## Your control
 
-Sign out of GitHub, turn spoken replies off, or erase all app data in Settings at any time. Erase all data also deletes the memories kept on this iPhone and signs you out of GitHub. Deleting the app removes its data from your device.
+Revoke AI data sharing, sign out of GitHub, turn spoken replies off, or erase all app data in Settings at any time. Erase all data deletes local memories, clears AI-sharing permission and signs you out of GitHub. Data already sent to GitHub is governed by GitHub’s retention and deletion policies. Deleting the app removes its app-container data; use Erase all data before deletion to remove device-keychain credentials as well.
 
 Your device may include the app’s settings and saved memories in iCloud or computer backups, according to your device settings. The GitHub sign-in is saved with this-device-only protection, so it does not sync through iCloud Keychain or move to a new device.
 
 ## Children
 
-Because the app collects no personal data, it does not knowingly collect data from anyone, including children.
+HIVE is not directed at children under 13. The developer does not knowingly collect children’s personal data. Optional GitHub use is subject to GitHub’s age requirements and privacy protections.
 
 ## Changes
 
