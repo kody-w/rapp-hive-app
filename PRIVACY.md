@@ -1,6 +1,6 @@
 # Rapp Hive Privacy Policy
 
-_Last updated October 11, 2026_
+_Last updated October 16, 2026_
 
 Rapp Hive’s developer operates no AI server and receives no AI conversations. Its brainstem runs on your device, with Apple’s on-device model or, only after explicit AI-sharing permission and GitHub sign-in, GitHub Copilot. GitHub processes personal data you choose to send. Its developer never receives your conversations, voice, memories, agents, or settings.
 
@@ -26,9 +26,9 @@ When Apple’s on-device model answers on this iPhone, what you say or type is n
 
 Only after you allow AI data sharing, GitHub Copilot receives typed questions or transcribed speech, recent conversation messages, recalled saved memories, agent instructions and tool results included in answers, to authenticate your account and generate AI replies. GitHub also receives sign-in requests and tokens, your IP address and service request metadata. No audio is sent to Copilot. Sign-in uses a one-time code on GitHub’s website; HIVE never sees your GitHub password.
 
-GitHub, Inc. or GitHub B.V. operates GitHub Copilot as a Microsoft company. Its privacy statement is https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement and its Copilot terms are https://docs.github.com/en/site-policy/github-terms/github-copilot-product-specific-terms. These policies describe safeguards, purposes, retention, subprocessors and privacy rights. GitHub’s published protections include access controls, encryption and rights to access or delete personal data; these protect the data we share. Retention and model-improvement use depend on your plan and account or organization settings; HIVE does not promise that GitHub immediately deletes prompts or never uses them for model improvement. Manage those settings and deletion requests with GitHub.
+GitHub, Inc. or GitHub B.V. operates GitHub Copilot as a Microsoft company. Its privacy statement is https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement and the terms that cover Copilot are https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features. These policies describe safeguards, purposes, retention, subprocessors and privacy rights. GitHub Copilot is the only third-party AI service that receives your conversation content from Rapp Hive. Before offering it, we reviewed GitHub's privacy statement and confirm that GitHub provides the same or equal protection for that data as this policy: GitHub states that it does not sell personal data, protects data with security safeguards such as encryption and access controls, and offers access and deletion rights, subject to applicable law and its retention exceptions. When GitHub Copilot is used, GitHub also receives product-interaction and request metadata and may use it for service analytics and improvement under its privacy statement and your account settings. Retention and model-improvement use depend on your plan and account or organization settings; HIVE does not promise that GitHub immediately deletes prompts or never uses them for model improvement. Manage those settings and deletion requests with GitHub.
 
-When you ask about Hacker News, the brainstem’s Hacker News agent fetches public stories from Hacker News’s API. It sends nothing about you.
+When you ask about Hacker News, the brainstem’s Hacker News agent fetches public stories from Hacker News’s API. Like any website, Hacker News receives your IP address and standard request details; nothing you said or saved is sent.
 
 A card’s sharing code carries only an agent’s recipe — its name, description, steps, and parameters — never code, and only when you show it to someone.
 
@@ -44,7 +44,7 @@ Become a founder opens your own mail app with a message addressed to us; nothing
 
 ## What the app does not do
 
-There are no Rapp Hive accounts, analytics, advertising, or tracking. GitHub Copilot receives what you say only after explicit AI-sharing permission and sign-in. Nothing you open installs an agent.
+There are no Rapp Hive accounts, and Rapp Hive’s developer runs no analytics, advertising, or tracking. GitHub Copilot receives what you say only after explicit AI-sharing permission and sign-in. Nothing you open installs an agent.
 
 ## Your control
 

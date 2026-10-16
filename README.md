@@ -1,7 +1,3 @@
-<!-- retired-notice:start -->
-> **Retired experiment, kept for reference.** The living project is [kody-w/RAPP](https://github.com/kody-w/RAPP).
-<!-- retired-notice:end -->
-
 # Rapp Hive Support
 
 <!-- rapp1:network-header:start -->
@@ -10,7 +6,6 @@
 
 Rapp Hive puts a RAPP Brainstem on your iPhone: it answers with Apple’s on-device model, or with GitHub Copilot through your own GitHub account. This first release is the **Founders Edition**, and every feature is free.
 
-- [Rapp Hive on the App Store](https://apps.apple.com/app/id6816163757)
 - [Privacy policy](PRIVACY.md)
 
 ## What do I need?
@@ -21,7 +16,7 @@ on-device model, so nothing you say leaves your iPhone. No computer and no
 account are needed.
 
 Without Apple Intelligence, sign in with GitHub to answer with GitHub Copilot
-instead (**Settings › GitHub Copilot › Sign in with GitHub**; you need a
+instead (**Settings › GitHub Copilot**, read what would be shared, tap **Allow AI data sharing**, then **Sign in with GitHub**; you need a
 GitHub account with Copilot). Or tap **Try the demo brainstem** on Talk to see
 how Talk works with sample answers.
 
@@ -33,7 +28,12 @@ so on Talk.
 
 ## What does GitHub sign-in do?
 
-It lets GitHub Copilot answer through your own GitHub account. Rapp Hive shows
+Before anything is sent, Rapp Hive shows who receives your data (GitHub Copilot,
+operated by GitHub, a Microsoft company) and exactly what is sent, and asks your
+permission. **Not now** keeps everything on your iPhone. Turn permission off any
+time with **Settings › Revoke AI data sharing & sign out**.
+
+Signing in lets GitHub Copilot answer through your own GitHub account. Rapp Hive shows
 a one-time code; you approve it on GitHub's website, so the app never sees your
 password. What you say, and the memories the brainstem recalls for an answer,
 go to GitHub Copilot under GitHub's terms. Sign out any time in **Settings**.
@@ -73,17 +73,17 @@ building AI.
 
 ## Does voice leave my phone?
 
-Speech recognition runs on your device when it supports it; otherwise Apple's
-speech service processes it. Only the resulting text goes to your brainstem,
-which is on your iPhone unless you chose GitHub Copilot.
+No. Speech recognition runs on your device. If your device can't recognize
+speech on its own, Rapp Hive asks you to type instead; it never sends your voice
+to a cloud speech service. Only the resulting text goes to your brainstem, which
+is on your iPhone unless you allowed AI data sharing and chose GitHub Copilot.
 
 ## How do I remove my data?
 
 **Settings › Erase all data** removes the brainstem's memories, your
 preferences, and your GitHub sign-in from this device, and clears the
-conversation. Deleting the app removes everything too.
+conversation. Deleting the app removes its app data; use Erase all data before deleting to remove your GitHub sign-in from the device keychain as well.
 
 ## Contact
 
-Email [wildfeuer05@gmail.com](mailto:wildfeuer05@gmail.com), or open an issue at
-<https://github.com/kody-w/rapp-hive-app/issues>.
+Email [wildfeuer05@gmail.com](mailto:wildfeuer05@gmail.com). A person reads every message.
