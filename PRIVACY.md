@@ -1,6 +1,6 @@
 # Rapp Hive Privacy Policy
 
-_Last updated October 16, 2026_
+_Last updated October 17, 2026_
 
 Rapp Hive’s developer operates no AI server and receives no AI conversations. Its brainstem runs on your device, with Apple’s on-device model or, only after explicit AI-sharing permission and GitHub sign-in, GitHub Copilot. GitHub processes personal data you choose to send. Its developer never receives your conversations, voice, memories, agents, or settings.
 
