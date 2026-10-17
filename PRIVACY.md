@@ -44,7 +44,11 @@ Become a founder opens your own mail app with a message addressed to us; nothing
 
 ## What the app does not do
 
-There are no Rapp Hive accounts, and Rapp Hive’s developer runs no analytics, advertising, or tracking. GitHub Copilot receives what you say only after explicit AI-sharing permission and sign-in. Nothing you open installs an agent.
+There are no Rapp Hive accounts, and Rapp Hive’s developer runs no analytics, advertising, or tracking. GitHub Copilot receives what you say only after explicit AI-sharing permission and sign-in. Nothing you open or scan runs until you approve it (see Cards).
+
+## Cards
+
+A card is a small program (a “Zap”) that Rapp Hive can run on your device for your brainstem, such as a weather lookup. Cards come from you: the Day One cards shipped inside the app, a card you scan or receive from someone, or a card your brainstem writes when you ask it to. A card is text you can read in full on its back; the app reads it without running it and shows what it asks for, which is at most reading named public websites over https and keeping a small memory of its own on your device. Nothing runs until you tap Approve on that card, and you can revoke or remove it at any time; revoking stops it at once. A card never receives your conversation, your memories from other agents, your account details, or anything outside what it asked for, and approvals stay on your device: when you pass a card to someone, your approval does not go with it. Cards run inside the app, in a sandbox provided by Apple's JavaScriptCore, with limits on time and memory. Erase all data removes every card and every approval.
 
 ## Your control
 
