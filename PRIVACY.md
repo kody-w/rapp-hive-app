@@ -50,6 +50,15 @@ There are no Rapp Hive accounts, and Rapp Hive’s developer runs no analytics, 
 
 A card is a small program (a “Zap”) that Rapp Hive can run on your device for your brainstem, such as a weather lookup. Cards come from you: the Day One cards shipped inside the app, a card you scan or receive from someone, or a card your brainstem writes when you ask it to. A card is text you can read in full on its back; the app reads it without running it and shows what it asks for, which is at most reading named public websites over https and keeping a small memory of its own on your device. Nothing runs until you tap Approve on that card, and you can revoke or remove it at any time; revoking stops it at once. A card never receives your conversation, your memories from other agents, your account details, or anything outside what it asked for, and approvals stay on your device: when you pass a card to someone, your approval does not go with it. Cards run inside the app, in a sandbox provided by Apple's JavaScriptCore, with limits on time and memory. Erase all data removes every card and every approval.
 
+
+### Cards that run on their own, notifications, the widget, Siri
+
+A card you set to run every day runs on this iPhone at about the time you chose, in the background when iOS allows it or when you next open the app. What it answered is kept on this device as its last run. If you turn on "Tell me when it has run", iOS shows a notification made on this iPhone with the card's name and one line of its answer; nothing is sent to a notification service. The HIVE widget shows the name, time and one line of your cards' last runs on your lock screen or home screen, where anyone who can see your screen can read them; remove the widget or the card to stop that. Siri and the Shortcuts app can run only cards you approved, through Apple's App Intents on this iPhone; a card run that way is kept as its last run the same way.
+
+### Hive Pro
+
+Hive Pro is a subscription sold by Apple through the App Store. Apple handles payment; Rapp Hive sees only whether the subscription is active, never your payment details. Erase all data does not cancel a subscription: manage it in Settings › Apple Account › Subscriptions.
+
 ## Your control
 
 Revoke AI data sharing, sign out of GitHub, turn spoken replies off, or erase all app data in Settings at any time. Erase all data deletes local memories, clears AI-sharing permission and signs you out of GitHub. Data already sent to GitHub is governed by GitHub’s retention and deletion policies. Deleting the app removes its app-container data; use Erase all data before deletion to remove device-keychain credentials as well.
